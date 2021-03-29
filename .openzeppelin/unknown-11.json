@@ -1,0 +1,187 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "a65cdfa308566facef6065beb9e631bc7782c0699e2093fd7f5bc24c50583bce": {
+      "address": "0xF65900FEF675c942dd8e1b360d2485930DE5fBDA",
+      "txHash": "0xd8a96f1b4dfb6d920f3866aa1368c7edd58c3de1515d8db29ed5c1eeaffbc91a",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "contracts/Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "a8c34e30dd42bfa0d900135a30dbc42f877332f6d3aa29d69727e5d34d15e657": {
+      "address": "0x16F38931d715F81c6C125A3f7B6c77fB46B1810e",
+      "txHash": "0x51a4f75e63a13710b4921c9bebd47022205005237a6bcffeba9afacaeddba9d1",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "contracts/BoxV2.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "9d95f41eb02e1eb2a57af0eb2d8c4ab420ea91b91cb5d7aa54e954960570f680": {
+      "address": "0x025B44DD23495Ab39C6c7F757BF9C17d9697F3cC",
+      "txHash": "0xe562c82aaf26d510e56cb751fff8f4073d304a0dbc1411c83431bf1d4f65dae2",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "Lottery",
+            "label": "owner",
+            "type": "t_address",
+            "src": "contracts/Lottery.sol:13"
+          },
+          {
+            "contract": "Lottery",
+            "label": "firstPrizeMaxAmount",
+            "type": "t_uint256",
+            "src": "contracts/Lottery.sol:15"
+          },
+          {
+            "contract": "Lottery",
+            "label": "secondPrizeMaxAmount",
+            "type": "t_uint256",
+            "src": "contracts/Lottery.sol:16"
+          },
+          {
+            "contract": "Lottery",
+            "label": "betMinAmount",
+            "type": "t_uint256",
+            "src": "contracts/Lottery.sol:19"
+          },
+          {
+            "contract": "Lottery",
+            "label": "jackpot",
+            "type": "t_uint256",
+            "src": "contracts/Lottery.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    },
+    "d36e8d9c353bf9566791ceddd6a564b9bba12b98bbbf957f63cdd5b11b434a4e": {
+      "address": "0x3569C16F40d3c6f990E5B56648F45762046E08A3",
+      "txHash": "0x04983842264a13ce2d7f8afd5e810493d3c659f0076f75c2725c34ee1f0e7081",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:28"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/upgrades-core/contracts/Initializable.sol:63"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "owner",
+            "type": "t_address",
+            "src": "contracts/LotteryV2.sol:13"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "firstPrizeMaxAmount",
+            "type": "t_uint256",
+            "src": "contracts/LotteryV2.sol:15"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "secondPrizeMaxAmount",
+            "type": "t_uint256",
+            "src": "contracts/LotteryV2.sol:16"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "betMinAmount",
+            "type": "t_uint256",
+            "src": "contracts/LotteryV2.sol:19"
+          },
+          {
+            "contract": "LotteryV2",
+            "label": "jackpot",
+            "type": "t_uint256",
+            "src": "contracts/LotteryV2.sol:22"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x764d3C6105711194Fae26D4E5e2448b6B4dabF2c",
+    "txHash": "0xe755ed714747f9a577c323fadd26f1626aa86c55edf672bbc30eafae9c07d40d"
+  }
+}
